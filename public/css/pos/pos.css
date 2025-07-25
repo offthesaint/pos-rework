@@ -1,0 +1,33 @@
+.pos-container {
+    display: flex;
+    height: 100vh;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    border: red 1px solid;
+}
+
+.pos-container .category-section {
+    width: 25%;
+    height: 100%;
+}
+
+.pos-container .product-section {
+    width: 75%;
+    height: 100%;
+}
+
+.pos-container .cart-section {
+    width: 25%;
+    height: 100%;
+}
+
+.pos-container .cart-section .cart {
+    height: 100%;
+    border-radius: 1rem;
+    border: black 1px solid;
+}

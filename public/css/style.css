@@ -1,1 +1,36 @@
 /* Main CSS */
+
+:root {
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../../assets/fonts/poppins/Poppins-Regular.ttf);
+}
+
+/* Globals */
+
+* {
+    line-height: 1;
+    font-family: poppins, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 7rem;
+    border-right: black solid 1px;
+}
+
+.main {
+    flex: 1;
+}
