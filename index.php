@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- ASSETS -->
-    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="public/css/style.css">
-    <link rel="stylesheet" href="public/css/pos/pos.css">
-    <title>Point of Sale</title>
-</head>
+<!-- Head -->
+<?php include 'includes/head.php'; ?>
 
 <body>
     <div class="root">
-        <div class="sidebar">
 
-        </div>
+        <!-- Sidebar -->
+        <?php include 'includes/sidebar.php'; ?>
+
+        <!-- Main Content -->
         <div class="main">
             <!-- -->
             <div class="pos-container">
@@ -38,6 +30,7 @@
             </div>
             <!--  -->
         </div>
+
     </div>
     <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
