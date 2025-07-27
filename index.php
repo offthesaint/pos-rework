@@ -11,28 +11,15 @@
         <?php include 'includes/sidebar.php'; ?>
 
         <!-- Main Content -->
-        <div class="main">
+        <div class="main" id="main">
             <!-- -->
-            <div class="pos-container">
-                <div class="wrapper">
-                    <div class="category-section">
-
-                    </div>
-                    <div class="product-section">
-
-                    </div>
-                </div>
-                <div class="cart-section">
-                    <div class="cart">
-
-                    </div>
-                </div>
-            </div>
+            <?php include 'pages/pos.php'; ?>
             <!--  -->
         </div>
 
     </div>
     <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="public/js/router.js"></script>
 </body>
 
 </html>

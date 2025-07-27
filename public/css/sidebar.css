@@ -16,20 +16,29 @@
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+
+    :hover,
+    :focus {
+        background-color: lightgray;
+        color: white;
+    }
 }
 
 .nav-link {
     display: flex;
-    color: black;
+    color: lightgray;
     align-items: center;
     justify-content: center;
     height: 3rem;
     width: 3rem;
     border-radius: 0.5rem;
+
+
 }
 
 .nav-link.active {
     background-color: lightgray;
+    color: white;
 }
 
 .nav-icon {

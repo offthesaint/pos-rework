@@ -2,11 +2,18 @@
 
 :root {
     font-size: 14px;
+
+    --outline-color: lightgray;
 }
 
 @font-face {
     font-family: poppins;
     src: url(../../assets/fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(../../assets/fonts/poppins/Poppins-Bold.ttf);
 }
 
 /* Globals */
@@ -28,9 +35,17 @@ body {
 
 .sidebar {
     width: 7rem;
-    border-right: black solid 1px;
+    border-right: var(--outline-color) solid 1px;
 }
 
 .main {
     flex: 1;
+}
+
+.heading {
+    font: 1.5rem poppins-bold;
+}
+
+.title {
+    font: 1.5rem poppins-bold;
 }
